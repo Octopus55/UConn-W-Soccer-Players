@@ -175,4 +175,4 @@ with tgb.Page() as page:
 
 if __name__ == "__main__":
     chart_figure = None
-    Gui(page=page, css_file='soccer_taipy.css').run(title="UConn Women's Soccer | Player Comparison Tool", favicon='logo.ico')
+    Gui(page=page, css_file='soccer_taipy.css').run(title="UConn Women's Soccer | Player Comparison Tool", favicon='logo.ico', host="0.0.0.0", port=10000)

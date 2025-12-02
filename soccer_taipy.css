@@ -1,0 +1,8 @@
+/*hides default taipy watermark*/
+.taipy-watermark {
+    display: none !important;
+}
+
+h2 {
+    margin-top: 0;
+}

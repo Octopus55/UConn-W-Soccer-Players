@@ -61,7 +61,7 @@ def get_all_players():
         for position in positions_list:
         
             #file_path = f'../data/players/2025_season/{position}/Player stats {player.replace('_', '. ')}.csv'
-            file_path = f'player_data/Player stats {player.replace('_', '. ')}.csv'
+            file_path = f"player_data/Player stats {player.replace('_', '. ')}.csv"
             if os.path.exists(file_path):
                 player_df = pd.read_csv(file_path)
                 player_df = clean_col_names_player(player_df)
